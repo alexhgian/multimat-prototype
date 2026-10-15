@@ -1,6 +1,6 @@
 // Offline cache for the scoring table and the mat scoreboard: if the tablet reloads with no connection,
 // the page still opens from cache. Pages are fetched fresh when online (network first), cached for later.
-const CACHE = 'ww-scoring-v1';
+const CACHE = 'ww-scoring-v2';
 const PAGES = ['score.html', 'display.html'];
 
 self.addEventListener('install', e => {
